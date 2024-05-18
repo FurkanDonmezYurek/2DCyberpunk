@@ -4,7 +4,7 @@ public class MoveObject : MonoBehaviour
 {
     public static MoveObject Instance { get; private set; }
     private Vector3 velocity;
-    public bool jumped;
+    public bool jumping;
 
     private void Awake()
     {
@@ -41,14 +41,15 @@ public class MoveObject : MonoBehaviour
     public void Jump(float jump)
     {
         Rigidbody2D rb = this.gameObject.GetComponent<Rigidbody2D>();
-        if (Input.GetButtonDown("Jump") && Mathf.Approximately(rb.velocity.y, 0f))
+        if (Input.GetButtonDown("Jump")&& jumping == false)
         {
             rb.AddForce(Vector3.up * jump, ForceMode2D.Impulse);
-            jumped = true;
+            jumping = true;
         }
-        else
+        
+        if(Mathf.Approximately(rb.velocity.y, 0f))
         {
-            jumped = false;
+            jumping = false;
         }
     }
 
