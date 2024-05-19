@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -139,10 +139,10 @@ TextureImporter:
       name: Adult-Jump_0
       rect:
         serializedVersion: 2
-        x: 54
+        x: 0
         y: 0
-        width: 132
-        height: 282
+        width: 252
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,10 +160,10 @@ TextureImporter:
       name: Adult-Jump_1
       rect:
         serializedVersion: 2
-        x: 318
+        x: 252
         y: 0
-        width: 144
-        height: 246
+        width: 252
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: Adult-Jump_2
       rect:
         serializedVersion: 2
-        x: 558
+        x: 504
         y: 0
-        width: 138
-        height: 294
+        width: 252
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: Adult-Jump_3
       rect:
         serializedVersion: 2
-        x: 810
+        x: 756
         y: 0
-        width: 144
-        height: 324
+        width: 252
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +223,10 @@ TextureImporter:
       name: Adult-Jump_4
       rect:
         serializedVersion: 2
-        x: 1050
+        x: 1008
         y: 0
-        width: 180
-        height: 330
+        width: 252
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: Adult-Jump_5
       rect:
         serializedVersion: 2
-        x: 1308
+        x: 1260
         y: 0
-        width: 174
-        height: 318
+        width: 252
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

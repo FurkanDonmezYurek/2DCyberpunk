@@ -198,6 +198,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130498542}
   m_CullTransparentMesh: 1
+--- !u!1 &340306670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 340306671}
+  m_Layer: 0
+  m_Name: StartPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &340306671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340306670}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.42945, y: -2.9841962, z: -0.22286278}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,7 +290,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -284,7 +315,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 2.37, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -516,8 +547,8 @@ Transform:
   m_GameObject: {fileID: 710913980}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0178, y: -4.55, z: 0}
-  m_LocalScale: {x: 17.896006, y: 1, z: 1}
+  m_LocalPosition: {x: 0.0178, y: 0, z: 0}
+  m_LocalScale: {x: 35, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -799,10 +830,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2969994700331053125, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
-      propertyPath: maxHealth
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2969994700331053125, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
       propertyPath: healthSlider
       value: 
       objectReference: {fileID: 1892652571}
@@ -812,11 +839,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8862584858397828334, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.23
+      value: -12.85
       objectReference: {fileID: 0}
     - target: {fileID: 8862584858397828334, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.17
+      value: 2.74
       objectReference: {fileID: 0}
     - target: {fileID: 8862584858397828334, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
       propertyPath: m_LocalPosition.z
@@ -864,3 +891,4 @@ SceneRoots:
   - {fileID: 3923601370584607748}
   - {fileID: 621141037}
   - {fileID: 1820186737}
+  - {fileID: 340306671}

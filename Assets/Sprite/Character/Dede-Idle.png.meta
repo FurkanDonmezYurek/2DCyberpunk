@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -139,10 +139,10 @@ TextureImporter:
       name: Dede-Idle_0
       rect:
         serializedVersion: 2
-        x: 78
+        x: 0
         y: 0
-        width: 138
-        height: 246
+        width: 252
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,7 +150,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8c2f9a5f39280341a642037b930f204
+      spriteID: b7869adb26386d8489983367dafa1e30
       internalID: 799545640
       vertices: []
       indices: 
@@ -160,10 +160,10 @@ TextureImporter:
       name: Dede-Idle_1
       rect:
         serializedVersion: 2
-        x: 330
+        x: 252
         y: 0
-        width: 138
-        height: 246
+        width: 252
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,7 +171,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 732ee29fba69ee04783e6a5c063a294d
+      spriteID: 1efc2024d0193bf49a80dbc3c9c38395
       internalID: -1504104869
       vertices: []
       indices: 
@@ -181,10 +181,10 @@ TextureImporter:
       name: Dede-Idle_2
       rect:
         serializedVersion: 2
-        x: 582
+        x: 504
         y: 0
-        width: 138
-        height: 240
+        width: 252
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,7 +192,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c0f205c81c1a1f4cb464db80cf9d223
+      spriteID: 030fcdb49eb9d064494e48462cad6889
       internalID: 1936277809
       vertices: []
       indices: 
@@ -202,10 +202,10 @@ TextureImporter:
       name: Dede-Idle_3
       rect:
         serializedVersion: 2
-        x: 834
+        x: 756
         y: 0
-        width: 138
-        height: 240
+        width: 252
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,7 +213,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 100e23c45376dcf4b880ec11770c3344
+      spriteID: 980ad858e54b0c44aa8c54f949128814
       internalID: -1879765440
       vertices: []
       indices: 

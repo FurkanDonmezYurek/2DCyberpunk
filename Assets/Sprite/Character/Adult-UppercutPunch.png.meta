@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2ad3def55abe43846ad9edbf47c0ae18
+guid: 01b8d4df19d2aef4788df2a3899eb87b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -136,148 +136,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Adult-Punch_0
+      name: Adult-UppercutPunch_0
       rect:
         serializedVersion: 2
-        x: 59
+        x: 0
         y: 0
-        width: 129
-        height: 283
+        width: 432
+        height: 336
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 609d07edeb233c14baa33cf7f813aa3c
-      internalID: 1970787280
+      spriteID: 927de0cdb437d684bb1410c903c0d3c3
+      internalID: 1872525417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adult-Punch_1
+      name: Adult-UppercutPunch_1
       rect:
         serializedVersion: 2
-        x: 521
+        x: 432
         y: 0
-        width: 296
-        height: 242
-      alignment: 9
-      pivot: {x: 0.5425846, y: 0.5595281}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b43c51fe29a961e4b886f9ab9cd2ba4c
-      internalID: -1465667261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adult-Punch_2
-      rect:
-        serializedVersion: 2
-        x: 1001
-        y: 0
-        width: 295
-        height: 248
-      alignment: 9
-      pivot: {x: 0.39012513, y: 0.5254135}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cd62ea1eaa75f34e944a2e078dd92c3
-      internalID: 1170504164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adult-Punch_3
-      rect:
-        serializedVersion: 2
-        x: 1446
-        y: 0
-        width: 283
-        height: 248
-      alignment: 9
-      pivot: {x: 0.23593603, y: 0.5471965}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b727a8ec2e198184f9a80dadde5fd871
-      internalID: 463806851
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adult-Punch_5
-      rect:
-        serializedVersion: 2
-        x: 1853
-        y: 0
-        width: 307
-        height: 265
-      alignment: 9
-      pivot: {x: 0.17446193, y: 0.5135904}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a974b3f73c8e6b43b84870f57d7124d
-      internalID: -1609922095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adult-Punch_7
-      rect:
-        serializedVersion: 2
-        x: 2190
-        y: 0
-        width: 150
-        height: 265
+        width: 432
+        height: 336
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 926180e699188d241a535ec53f3f89ae
-      internalID: -1870946710
+      spriteID: ac3697ef2ab31cb46b782ae1e9756490
+      internalID: 753013568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adult-Punch_8
+      name: Adult-UppercutPunch_2
       rect:
         serializedVersion: 2
-        x: 2634
-        y: 1
-        width: 128
-        height: 277
+        x: 864
+        y: 0
+        width: 432
+        height: 336
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65974d63c56a1804eb2b0ad9eda5fb81
-      internalID: -1398530678
+      spriteID: 7e929bc49b3d87d43ae4563719162da1
+      internalID: 791841524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adult-UppercutPunch_3
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 0
+        width: 432
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0423f8ba8224e0e43873e4046326973e
+      internalID: 1311847417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adult-UppercutPunch_4
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 432
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766bc362d95bb2743adc8ca2903d99de
+      internalID: 353184096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adult-UppercutPunch_5
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 432
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4d670dd4a028641b1ea2e613a899fd
+      internalID: -1632834779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adult-UppercutPunch_6
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 0
+        width: 432
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e3408eb2113494e94d80efd57e9b39
+      internalID: -1452282613
       vertices: []
       indices: 
       edges: []
@@ -293,24 +293,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Adult-Punch_0: 1970787280
-      Adult-Punch_1: -1465667261
-      Adult-Punch_10: 323857094
-      Adult-Punch_11: 1380492082
-      Adult-Punch_12: 1143263802
-      Adult-Punch_13: 104301114
-      Adult-Punch_14: -842018893
-      Adult-Punch_15: -396656857
-      Adult-Punch_16: 468316683
-      Adult-Punch_17: 1247564137
-      Adult-Punch_2: 1170504164
-      Adult-Punch_3: 463806851
-      Adult-Punch_4: -2004461055
-      Adult-Punch_5: -1609922095
-      Adult-Punch_6: 588334728
-      Adult-Punch_7: -1870946710
-      Adult-Punch_8: -1398530678
-      Adult-Punch_9: -1148702523
+      Adult-UppercutPunch_0: 1872525417
+      Adult-UppercutPunch_1: 753013568
+      Adult-UppercutPunch_2: 791841524
+      Adult-UppercutPunch_3: 1311847417
+      Adult-UppercutPunch_4: 353184096
+      Adult-UppercutPunch_5: -1632834779
+      Adult-UppercutPunch_6: -1452282613
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

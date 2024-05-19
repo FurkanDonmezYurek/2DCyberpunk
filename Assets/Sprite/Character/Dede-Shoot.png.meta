@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -139,18 +139,18 @@ TextureImporter:
       name: Dede-Shoot_0
       rect:
         serializedVersion: 2
-        x: 78
+        x: 0
         y: 0
-        width: 156
-        height: 246
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+        width: 252
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e553e53c2d2bb7a4aa1ed82cea99d889
+      spriteID: 6b527d89dfd65dd4b845e435958954e9
       internalID: 1856043640
       vertices: []
       indices: 
@@ -160,18 +160,18 @@ TextureImporter:
       name: Dede-Shoot_1
       rect:
         serializedVersion: 2
-        x: 324
+        x: 252
         y: 0
-        width: 162
-        height: 240
+        width: 252
+        height: 336
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a005b62994043fe4c96e1ca657d303f9
+      spriteID: 2dbb8720fa9c5c941b24175ad2c26a46
       internalID: 1283412674
       vertices: []
       indices: 
@@ -181,19 +181,40 @@ TextureImporter:
       name: Dede-Shoot_2
       rect:
         serializedVersion: 2
-        x: 546
+        x: 504
         y: 0
-        width: 210
-        height: 246
-      alignment: 9
-      pivot: {x: 0.5, y: 0.49999994}
+        width: 252
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a1d455616cf64941b62546bc40a9252
+      spriteID: e261894fc12c8774d8309b18e84b2664
       internalID: -1566296616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dede-Shoot_3
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 0
+        width: 252
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c935acf8c674bb540849d021137fbf19
+      internalID: 1594685637
       vertices: []
       indices: 
       edges: []
@@ -202,61 +223,40 @@ TextureImporter:
       name: Dede-Shoot_4
       rect:
         serializedVersion: 2
-        x: 822
+        x: 1008
         y: 0
-        width: 174
-        height: 252
-      alignment: 9
-      pivot: {x: 0.5, y: 0.45267093}
+        width: 252
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c27a22d59044a744b04091553f3bd6e
+      spriteID: bfbc7f5e807e4f249a0949c974f79222
       internalID: -1442710991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dede-Shoot_6
+      name: Dede-Shoot_5
       rect:
         serializedVersion: 2
-        x: 1092
+        x: 1260
         y: 0
-        width: 156
-        height: 234
-      alignment: 9
-      pivot: {x: 0.5, y: 0.49999994}
+        width: 252
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 363d35038c3f1c6499d2838b8e331fe3
-      internalID: -142993478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dede-Shoot_7
-      rect:
-        serializedVersion: 2
-        x: 1338
-        y: 0
-        width: 144
-        height: 228
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4978204}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b696cd7deb902e1489fff553a610ad12
-      internalID: 1204598699
+      spriteID: b2a5ec15fcede564d86b4cdf79faae1d
+      internalID: -767256223
       vertices: []
       indices: 
       edges: []
@@ -274,17 +274,10 @@ TextureImporter:
     nameFileIdTable:
       Dede-Shoot_0: 1856043640
       Dede-Shoot_1: 1283412674
-      Dede-Shoot_10: -1167375940
-      Dede-Shoot_11: 664714603
-      Dede-Shoot_12: -1037887722
       Dede-Shoot_2: -1566296616
       Dede-Shoot_3: 1594685637
       Dede-Shoot_4: -1442710991
       Dede-Shoot_5: -767256223
-      Dede-Shoot_6: -142993478
-      Dede-Shoot_7: 1204598699
-      Dede-Shoot_8: 538083114
-      Dede-Shoot_9: 691176718
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -139,10 +139,10 @@ TextureImporter:
       name: Dede-Walk_0
       rect:
         serializedVersion: 2
-        x: 78
+        x: 0
         y: 0
-        width: 115
-        height: 253
+        width: 252
+        height: 336
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,12 +160,12 @@ TextureImporter:
       name: Dede-Walk_1
       rect:
         serializedVersion: 2
-        x: 329
+        x: 252
         y: 0
-        width: 127
-        height: 253
-      alignment: 9
-      pivot: {x: 0.55799735, y: 0.4750459}
+        width: 252
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: Dede-Walk_2
       rect:
         serializedVersion: 2
-        x: 569
+        x: 504
         y: 0
-        width: 187
-        height: 241
-      alignment: 9
-      pivot: {x: 0.37058067, y: 0.49563396}
+        width: 252
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,12 +202,12 @@ TextureImporter:
       name: Dede-Walk_3
       rect:
         serializedVersion: 2
-        x: 822
+        x: 756
         y: 0
-        width: 187
-        height: 241
-      alignment: 9
-      pivot: {x: 0.3593267, y: 0.5087323}
+        width: 252
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,12 +223,12 @@ TextureImporter:
       name: Dede-Walk_4
       rect:
         serializedVersion: 2
-        x: 1061
+        x: 1009
         y: 0
-        width: 169
-        height: 247
-      alignment: 9
-      pivot: {x: 0.46264216, y: 0.4872199}
+        width: 251
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,10 +244,10 @@ TextureImporter:
       name: Dede-Walk_5
       rect:
         serializedVersion: 2
-        x: 1326
+        x: 1260
         y: 0
-        width: 157
-        height: 258
+        width: 252
+        height: 336
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +265,10 @@ TextureImporter:
       name: Dede-Walk_6
       rect:
         serializedVersion: 2
-        x: 1589
+        x: 1512
         y: 0
-        width: 140
-        height: 258
+        width: 252
+        height: 336
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +286,10 @@ TextureImporter:
       name: Dede-Walk_7
       rect:
         serializedVersion: 2
-        x: 1835
+        x: 1764
         y: 0
-        width: 140
-        height: 241
+        width: 252
+        height: 336
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,12 +307,12 @@ TextureImporter:
       name: Dede-Walk_8
       rect:
         serializedVersion: 2
-        x: 2087
+        x: 2016
         y: 0
-        width: 140
-        height: 241
-      alignment: 9
-      pivot: {x: 0.47745186, y: 0.5043662}
+        width: 252
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

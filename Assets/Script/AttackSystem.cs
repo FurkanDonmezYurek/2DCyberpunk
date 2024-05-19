@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class AttackSystem : MonoBehaviour
 {
-    int comboCount;
+    public int comboCount;
     GameObject Player;
     GameObject Enemy;
     Animator animator;
@@ -14,6 +14,7 @@ public class AttackSystem : MonoBehaviour
     public GameObject bullet;
     public Transform firePosition;
     public float fireSpeed;
+    public bool canUppercut;
 
     private void Start()
     {
@@ -29,21 +30,8 @@ public class AttackSystem : MonoBehaviour
         //Attack and combo -----Input.GetMouseButtonDown(0) ||
         if (Input.GetMouseButtonDown(0) ||Input.GetKeyDown(KeyCode.K))
         {
-            if (animator.GetBool("Jump") == false && playerSC.character ==1)
+            if (animator.GetBool("Jump") == false && playerSC.character !=0)
             {
-                switch (comboCount)
-                {
-                    case 0:
-                        animator.SetTrigger("Attack");
-                        comboCount = 0;
-                        break;
-                    // case 1:
-                    //     animator.SetTrigger("Attack1");
-                    //     comboCount =0;
-                    //     break;
-                }
-            }
-            else if(playerSC.character == 2){
                 animator.SetTrigger("Attack");
             }
         }
@@ -75,7 +63,5 @@ public class AttackSystem : MonoBehaviour
         }
     }
 
-    void Shoot(){
-        
-    }
+
 }

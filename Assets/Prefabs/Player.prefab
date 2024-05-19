@@ -86,7 +86,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.52, y: 3.36}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -124,18 +124,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.28628945}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.32, y: 2.82}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 2.52, y: 3.36}
+    newSize: {x: 2.52, y: 3.36}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.32, y: 2.82}
+  m_Size: {x: 1.32, y: 2.7474208}
   m_EdgeRadius: 0
 --- !u!50 &8393296008749272988
 Rigidbody2D:
@@ -182,6 +182,9 @@ MonoBehaviour:
   dashingPower: 24
   dashingTime: 0.2
   dashingCooldown: 0.5
+  healthSlider: {fileID: 0}
+  maxHealth: 5
+  currentHealth: 0
 --- !u!114 &1841186917715001789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -391,10 +394,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 1.6723435, y: 0.0036706924}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -405,7 +408,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.9846873, y: 1.6227136}
   m_EdgeRadius: 0
 --- !u!114 &5360279773191996879
 MonoBehaviour:
@@ -419,9 +422,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a484c609c0d4542a71b3718a420aa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  comboCount: 0
   bullet: {fileID: 1353488168922308674, guid: ef60a7496f4aef3468e2bbdb44c61f47, type: 3}
   firePosition: {fileID: 0}
   fireSpeed: 30
+  canUppercut: 0
 --- !u!1 &6426150876109772982
 GameObject:
   m_ObjectHideFlags: 0

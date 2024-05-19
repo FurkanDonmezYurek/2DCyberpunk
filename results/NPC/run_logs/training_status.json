@@ -1,0 +1,29 @@
+{
+    "AI": {
+        "checkpoints": [
+            {
+                "steps": 90325,
+                "file_path": "results\\NPC\\AI\\AI-90325.onnx",
+                "reward": null,
+                "creation_time": 1716089142.424681,
+                "auxillary_file_paths": [
+                    "results\\NPC\\AI\\AI-90325.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 90325,
+            "file_path": "results\\NPC\\AI.onnx",
+            "reward": null,
+            "creation_time": 1716089142.424681,
+            "auxillary_file_paths": [
+                "results\\NPC\\AI\\AI-90325.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.3.0+cpu"
+    }
+}

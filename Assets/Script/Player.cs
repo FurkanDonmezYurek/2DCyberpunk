@@ -124,7 +124,7 @@ public class Player : MonoBehaviour
             moveObject.HorizontalControls(speed/3);
             break;
             case 1:
-            moveObject.HorizontalControls(speed);
+            moveObject.HorizontalControls(speed*1.5f);
             break;
             case 2:
             moveObject.HorizontalControls(speed/2);
@@ -176,5 +176,10 @@ public class Player : MonoBehaviour
     private void UpdateLifeBar()
     {
         healthSlider.value = currentHealth / maxHealth;
+    }
+
+    
+    public void UpperCut(){
+        rb.AddForce(Vector3.up * jump/2, ForceMode2D.Impulse);
     }
 }
