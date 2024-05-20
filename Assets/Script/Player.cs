@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+    //GameOverScreen
+    [SerializeField] private GameObject LifeBar;
+    [SerializeField] private GameObject GameOverPanel;
+
     //Movement
     MoveObject moveObject;
     Rigidbody2D rb;
@@ -51,6 +55,22 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        if (currentHealth == 0)
+        {
+            LifeBar.SetActive(false);
+
+            if (GameOverPanel != null)
+            {
+                bool isActive = GameOverPanel.activeSelf;
+                GameOverPanel.SetActive(!isActive);
+            }
+
+
+            if (GameOverPanel != null)
+            {
+                GameOverPanel.SetActive(true);
+            }
+        }
         //life bugfix
         if (currentHealth >= maxHealth)
         {
