@@ -3,16 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Blocks
+  - Bullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Background
   - Water
   - UI
-  - 
-  - 
+  - Midground
+  - Foreground
   - 
   - 
   - 
@@ -40,4 +43,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1386410263
+    locked: 0
+  - name: Midground
+    uniqueID: 3384845
+    locked: 0
+  - name: Foreground
+    uniqueID: 3296537477
+    locked: 0
+  - name: Playable
+    uniqueID: 4104239531
     locked: 0
