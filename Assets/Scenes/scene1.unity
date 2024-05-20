@@ -6447,6 +6447,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2969994700331053125, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
+      propertyPath: jump
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969994700331053125, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969994700331053125, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
+      propertyPath: dashingPower
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969994700331053125, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
       propertyPath: healthSlider
       value: 
       objectReference: {fileID: 771523659}
@@ -6464,15 +6476,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8862584858397828334, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8862584858397828334, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8862584858397828334, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8862584858397828334, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6480,7 +6492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8862584858397828334, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.88
+      value: -1.52
       objectReference: {fileID: 0}
     - target: {fileID: 8862584858397828334, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9928,7 +9940,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.42, y: -3.06, z: -10}
+  m_LocalPosition: {x: -8.18, y: -3.06, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
