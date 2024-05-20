@@ -69,6 +69,7 @@ public class Player : MonoBehaviour
             if (GameOverPanel != null)
             {
                 GameOverPanel.SetActive(true);
+                Time.timeScale = 0;
             }
         }
         //life bugfix
