@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public float damage;
-
+    public int comboCount;
+    GameObject Enemy;
+    Animator animatorEnemy;
+    public GameObject bullet;
+    public Transform firePosition;
+    public float fireSpeed;
+    public bool canUppercut;
     private void Start()
     {
         GameObject player = GameObject.Find("Player");
@@ -17,18 +22,29 @@ public class Bullet : MonoBehaviour
         Destroy(this.gameObject, 10f);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+     void OnTriggerEnter2D(Collider2D other)
     {
+        Enemy = other.gameObject;
+        animatorEnemy = Enemy.GetComponent<Animator>();
+        //Enemy damge-push-animation trigger function LayerMask.LayerToName(other.gameObject.layer)
         if (
-            other != null
-            && other.tag != "Player"
-            && other.GetComponent<Collider2D>().isTrigger != true
+             (other.transform.tag == "Enemy" || LayerMask.LayerToName(other.gameObject.layer) == "Minions")
+            && other.gameObject.TryGetComponent(out EnemyHealthSystem healthEnemy)
         )
         {
-            Destroy(this.gameObject);
-            if (other.transform.tag == "Enemy")
+            if (other.transform.tag == "Boss" && animatorEnemy.GetBool("Idle"))
             {
-                other.GetComponent<EnemyHealthSystem>().health -= damage;
+                if (healthEnemy.health > 0)
+                {
+                    healthEnemy.health--;
+                    animatorEnemy.SetTrigger("TakeDamage");
+                }
+            }
+            if (other.transform.tag == "Enemy" && healthEnemy.health > 0)
+            {
+                healthEnemy.health--;
+                healthEnemy.EnemyPush();
+                animatorEnemy.SetTrigger("TakeDamage");
             }
         }
     }

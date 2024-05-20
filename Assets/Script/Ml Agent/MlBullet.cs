@@ -4,33 +4,28 @@ using UnityEngine;
 
 public class MlBullet : MonoBehaviour
 {
-    public int damage;
-
+    GameObject player;
     private void Start()
     {
-        GameObject player = GameObject.Find("Target");
+        player = GameObject.Find("Target");
         transform.rotation = player.transform.rotation;
     }
 
     private void Update()
     {
-        Destroy(this.gameObject, 1.5f);
+        Destroy(this.gameObject, 5f);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (
-            other != null
-            && other.tag != "Player"
-            && other.GetComponent<Collider2D>().isTrigger != true
-        )
+        if(other.gameObject.TryGetComponent(out AI aI))
         {
-            Destroy(this.gameObject);
-            if (other.transform.tag == "Enemy")
-            {
-                other.GetComponent<AI>().health -= damage;
-            }
+            // aI.takeDamage = true;
+            Debug.Log("TakeDamage");
+             Destroy(this.gameObject);
         }
+           
+            
     }
 }
 
