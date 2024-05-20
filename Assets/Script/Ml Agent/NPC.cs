@@ -52,4 +52,11 @@ public class NPC : MonoBehaviour
                             );
         bulletClone.GetComponent<Rigidbody2D>().velocity = firePosition.right * fireSpeed;
     }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.gameObject.TryGetComponent(out AI aI))
+        {
+            // aI.takeDamage = true;
+            Debug.Log("MeleeTakeDamage");}
+    }
 }

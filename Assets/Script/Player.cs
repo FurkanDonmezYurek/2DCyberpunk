@@ -52,7 +52,7 @@ public class Player : MonoBehaviour
         {
             currentHealth = maxHealth;
         }
-         UpdateLifeBar();
+        //  UpdateLifeBar();
         //character transition
         if(moveObject.jumping == false)
         {
@@ -175,7 +175,7 @@ public class Player : MonoBehaviour
 
     private void UpdateLifeBar()
     {
-        healthSlider.value = currentHealth / maxHealth;
+        // healthSlider.value = currentHealth / maxHealth;
     }
 
     

@@ -2,22 +2,31 @@
     "AI": {
         "checkpoints": [
             {
-                "steps": 90325,
-                "file_path": "results\\NPC\\AI\\AI-90325.onnx",
+                "steps": 499987,
+                "file_path": "results\\NPC\\AI\\AI-499987.onnx",
                 "reward": null,
-                "creation_time": 1716089142.424681,
+                "creation_time": 1716164236.551471,
                 "auxillary_file_paths": [
-                    "results\\NPC\\AI\\AI-90325.pt"
+                    "results\\NPC\\AI\\AI-499987.pt"
+                ]
+            },
+            {
+                "steps": 500051,
+                "file_path": "results\\NPC\\AI\\AI-500051.onnx",
+                "reward": null,
+                "creation_time": 1716164236.6255813,
+                "auxillary_file_paths": [
+                    "results\\NPC\\AI\\AI-500051.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 90325,
+            "steps": 500051,
             "file_path": "results\\NPC\\AI.onnx",
             "reward": null,
-            "creation_time": 1716089142.424681,
+            "creation_time": 1716164236.6255813,
             "auxillary_file_paths": [
-                "results\\NPC\\AI\\AI-90325.pt"
+                "results\\NPC\\AI\\AI-500051.pt"
             ]
         }
     },
