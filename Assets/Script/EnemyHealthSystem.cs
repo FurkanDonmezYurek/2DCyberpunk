@@ -47,15 +47,15 @@ public class EnemyHealthSystem : MonoBehaviour
         if (pushRotation < 0)
         {
             enemyRb.AddForce(Vector2.right * pushForce, ForceMode2D.Impulse);
-            Enemy.transform.rotation = Quaternion.Euler(0f, 0, 0f);
+            Enemy.transform.rotation = Quaternion.Euler(0f, 180, 0f);
         }
         else
         {
             enemyRb.AddForce(Vector2.left * pushForce, ForceMode2D.Impulse);
-            Enemy.transform.rotation = Quaternion.Euler(0f, 180, 0f);
+            Enemy.transform.rotation = Quaternion.Euler(0f, 0, 0f);
         }
     }
-
+    
     //Belirlenen sürede objeyi yok etme
     IEnumerator DestroyEnemy(float seconds)
     {

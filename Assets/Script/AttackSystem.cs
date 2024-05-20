@@ -40,9 +40,9 @@ public class AttackSystem : MonoBehaviour
     {
         Enemy = other.gameObject;
         animatorEnemy = Enemy.GetComponent<Animator>();
-        //Enemy damge-push-animation trigger function
+        //Enemy damge-push-animation trigger function LayerMask.LayerToName(other.gameObject.layer)
         if (
-            (LayerMask.LayerToName(other.gameObject.layer) == "Enemy" || LayerMask.LayerToName(other.gameObject.layer) == "Minions")
+             (other.transform.tag == "Enemy" || LayerMask.LayerToName(other.gameObject.layer) == "Minions")
             && other.gameObject.TryGetComponent(out EnemyHealthSystem healthEnemy)
         )
         {

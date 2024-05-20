@@ -28,6 +28,9 @@ public class Player : MonoBehaviour
     public Slider healthSlider;
     public float maxHealth;
     public float currentHealth;
+    public float damageCD;
+    public bool canDamage;
+    float damageTime;
     
 
     void Start()
@@ -43,16 +46,27 @@ public class Player : MonoBehaviour
         //LifeBar start full
         currentHealth = maxHealth;
         UpdateLifeBar();
+        canDamage = true;
     }
 
     void Update()
     {
         //life bugfix
-        if (currentHealth > maxHealth)
+        if (currentHealth >= maxHealth)
         {
             currentHealth = maxHealth;
         }
-        //  UpdateLifeBar();
+         UpdateLifeBar();
+
+         if (canDamage == false)
+        {
+            damageTime = Time.time;
+            if (damageCD < damageTime)
+            {
+                canDamage = true;
+                damageTime = 0;
+            }
+        }
         //character transition
         if(moveObject.jumping == false)
         {
@@ -85,7 +99,7 @@ public class Player : MonoBehaviour
         {
             return;
         }
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && canDamage)
         {
             if(character == 1){
             StartCoroutine(Dash());
@@ -133,16 +147,26 @@ public class Player : MonoBehaviour
         //
         
     }
+    public void TakeDamge(float damage)
+    {
+        if (canDamage == true)
+        {
+            currentHealth -= damage;
+            animator.SetTrigger("TakeDamage");
+            UpdateLifeBar();
+            damageCD = Time.time + 0.5f;
+            canDamage = false;
+        }
+    }
     private IEnumerator Dash()
     {
         int originalLayer = this.gameObject.layer;
         this.gameObject.layer = 9;
         float originalSpeed = speed;
         speed = 0;
-        //canDamage = false;
+        canDamage = false;
         canDash = false;
         isDashing = true;
-        animator.SetBool("isDashing", true);
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0;
         moveObject.Dash(dashingPower);
@@ -151,11 +175,10 @@ public class Player : MonoBehaviour
         this.gameObject.layer = originalLayer;
         ResetAllForces();
         speed = originalSpeed;
-        //canDamage = true;
+        canDamage = true;
         tr.emitting = false;
         rb.gravityScale = originalGravity;
         isDashing = false;
-        animator.SetBool("isDashing", false);
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
     }

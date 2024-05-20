@@ -12,7 +12,8 @@ public class AI : Agent
     // private Transform closestBlockTransform;
     // private Transform closestBulletTransform;
     private Rigidbody2D rb;
-    public float speed = 5f;
+    public float speed;
+    private float originalSpeed;
     // public float jumpForce = 5f;
     // public int hitCount;
     //  float T_hitDelay;
@@ -24,15 +25,52 @@ public class AI : Agent
     // public int health;
     //  bool jumping;
     // public bool takeDamage;
-    
+
+
+    Animator animator;
+    public float range;
+    public float attackRange;
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        originalSpeed = speed;
     }
 
     public void Update()
     {
+        
+        float distanceAbs = Mathf.Abs(transform.position.x - target.position.x);
+        float distance = transform.position.x - target.position.x;
+        if(distanceAbs > range)
+        {
+            speed = 0;
+            animator.SetBool("CanRun",false);
+
+        }
+        else{
+
+            if(distance > 0){
+            transform.rotation = Quaternion.Euler(0, 180f,0);
+            }
+            else
+            {transform.rotation = Quaternion.Euler(0, 0f,0);}
+
+            
+            if(distanceAbs > attackRange)
+            {
+            animator.ResetTrigger("Attack");
+            speed = originalSpeed;
+            animator.SetBool("CanRun",true);
+            }
+            else
+            {
+                speed = 0;
+                animator.SetBool("CanRun",false);
+                animator.SetTrigger("Attack");
+            }
+        }
         // if (!canHit)
         // {
         //     T_hitDelay += Time.deltaTime;
