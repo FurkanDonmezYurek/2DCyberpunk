@@ -198,7 +198,7 @@ public class Player : MonoBehaviour
 
     private void UpdateLifeBar()
     {
-        // healthSlider.value = currentHealth / maxHealth;
+        healthSlider.value = currentHealth / maxHealth;
     }
 
     
