@@ -837,13 +837,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6169484330426489178, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6169484330426489178, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -998429819
+      objectReference: {fileID: 0}
     - target: {fileID: 8862584858397828334, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.85
+      value: -16.1
       objectReference: {fileID: 0}
     - target: {fileID: 8862584858397828334, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.74
+      value: 7.7
       objectReference: {fileID: 0}
     - target: {fileID: 8862584858397828334, guid: 9cf5ea9c3fa0166459274ac39021e767, type: 3}
       propertyPath: m_LocalPosition.z
@@ -888,7 +896,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 710913983}
-  - {fileID: 3923601370584607748}
   - {fileID: 621141037}
   - {fileID: 1820186737}
   - {fileID: 340306671}
+  - {fileID: 3923601370584607748}
