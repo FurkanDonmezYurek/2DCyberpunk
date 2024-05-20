@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7017117945947924949}
   - component: {fileID: 1884812180580695440}
   - component: {fileID: 4910350806136617818}
-  - component: {fileID: -2344344869114224225}
+  - component: {fileID: -3487664757023858596}
   m_Layer: 0
   m_Name: MlBullet
   m_TagString: Bullet
@@ -149,7 +149,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
---- !u!114 &-2344344869114224225
+--- !u!114 &-3487664757023858596
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,8 +158,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6366031302486392665}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4008b6444c72b1d46aecdceb1e2139f1, type: 3}
+  m_Script: {fileID: 11500000, guid: 3e60fcf14b39eb943946095772febb28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  lifetime: 2
+  damage: 0
